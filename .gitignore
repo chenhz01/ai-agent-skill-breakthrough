@@ -1,0 +1,18 @@
+# 依赖与产物
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# 大体积克隆（上游 163 skill 仓库，约 500MB，勿入本仓）
+scientific-agent-skills/
+
+# 日志与临时
+*.log
+_switch_err.txt
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
